@@ -1,0 +1,209 @@
+body {
+	background: #ffffff;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	width: 98%;
+}
+
+header {
+	font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+#name {
+	background: #4aaaa5;
+	position: relative;
+	color: white;
+	text-align: center;
+	top: 0;
+	right: -40px;
+	width: 220px;
+	float: left;
+}
+
+.content {
+	color: #777777;
+	width: 44%;
+	right: 20px;
+	float: right;
+}
+
+ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.bio h2,
+.interests h2,
+.message h2 {
+	color: #4aaaa5;
+}
+
+.connect h3 {
+	color: #4aaaa5;
+}
+
+.about-me,
+.portfolio,
+.contact {
+	clear: both;
+	background: #dddddd;
+	height: 540px;
+	border-bottom: 10px solid #4aaaa5;
+}
+
+.bio,
+.interests,
+.message {
+	background: #ffffff;
+	position: relative;
+	height: 440px;
+	width: 420px;
+	padding: 20px;
+	top: 30px;
+	bottom: 30px;
+	left: 40px;
+	float: left;
+}
+
+.pic-text img {
+	float: left;
+	padding-right: 20px;
+}
+
+.engineering,
+.coding,
+.swimming,
+.investments {
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.engineering p,
+.coding p,
+.swimming p,
+.investments p {
+	position: absolute;
+	bottom: 0;
+	width: 97%;
+	padding: 2px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+}
+
+.connect {
+	background: #ffffff;
+	position: relative;
+	height: 120px;
+	width: 180px;
+	padding: 20px;
+	margin-left: 70px;
+	top: 30px;
+	float: left;
+	text-align: center;
+}
+
+.index-html input {
+	width: 100%;
+}
+
+.write input {
+	height: 200px;
+}
+
+footer {
+	clear: both;
+	background: #666;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+@media only screen and (max-width: 980px) {
+}
+
+@media only screen and (max-width: 786px) {
+		.about-me {
+			height: 670px;
+		}
+
+		.portfolio,
+		.contact {
+			height: 710px;
+		}
+
+		.bio,
+		.message {
+			width: 82%;
+			height: 390px;
+    }
+
+		.interests {
+			width: 82%;
+			height: 410px;
+    }
+
+		.connect {
+			clear: both;
+			width: 82%;
+			left: -30px;
+			top: 60px;
+			text-align: left;
+		}
+
+		.write input {
+			height: 150px;
+		}
+
+}
+
+@media only screen and (max-width: 640px) {
+		#name {
+			clear: both;
+			width: 100%;
+			left: 0;
+		}
+
+		.content {
+			background-color: #ffffff;
+			color: #777777;
+			width: 100%;
+			right: -20px;
+		}
+
+		ul {
+			text-align: center;
+		}
+
+		ul li a {
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+
+		.about-me,
+		.portfolio,
+		.contact {
+			height: 750px;
+		}
+
+		.bio,
+		.interests,
+		.message {
+			width: 82%;
+			height: 460px;
+		}
+
+		.write input {
+			height: 220px;
+		}
+
+}
